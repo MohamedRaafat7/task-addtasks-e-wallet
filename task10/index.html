@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section >
+
+<div class="d1">
+    <h3 onclick="handleFilterClick('All')">All</h3>
+    <h3 onclick="handleFilterClick('TO-DO')">TO-DO</h3>
+    
+    <h3 onclick="handleFilterClick('Completed')">Completed</h3>
+</div>
+<div class="d2">
+    <div class="d22">
+        <p id="word">All</p>
+        <button id="btn1" onclick="addTask()">Add Task <span>+</span></button>
+    </div>
+    <div id="confirm">
+<p>Add New Task</p>
+<input type="text" placeholder="type new task here" id="input">
+<div class="confirm2">
+<button id="cancel" onclick="canceltask()">cancel</button>
+<button id="submit" onclick="createtask()">confirm</button>
+
+  </div>
+</div>
+<div id="tasks"></div>
+
+       
+</div>
+
+ </div>
+  
+
+
+
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
