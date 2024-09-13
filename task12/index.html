@@ -14,7 +14,7 @@
         <main>
             <section class="balance">
                 <h2>Current Balance</h2>
-                <div class="balance-amount" id="balance">$1,234.56</div>
+                <div class="balance-amount" id="balance">1,234.56</div>
             </section>
             <section class="transactions">
                 <h2>Recent Transactions</h2>
@@ -26,14 +26,14 @@
                 <h2>Add Funds</h2>
                 <form id="add-funds-form">
                     <input type="number" id="amount" placeholder="Amount" required>
-                    <button type="submit">Add Funds</button>
+                    <button type="submit" onclick="addbalance()">Add Funds</button>
                 </form>
             </section>
             <section class="withdraw-funds">
                 <h2>Withdraw Funds</h2>
                 <form id="withdraw-funds-form">
                     <input type="number" id="withdraw-amount" placeholder="Amount" required>
-                    <button type="submit">Withdraw Funds</button>
+                    <button type="submit" onclick="withdrawFunds()">Withdraw Funds</button>
                 </form>
             </section>
         </main>
