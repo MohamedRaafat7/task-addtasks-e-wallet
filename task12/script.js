@@ -29,6 +29,12 @@ function addbalance() {
     } else {
         alert("Please enter a valid amount.");
     }
+    scroll(
+        {
+            top:0,
+            behavior:"smooth"
+        }
+    )
 }
 
 // Function to withdraw funds
@@ -45,6 +51,12 @@ function withdrawFunds() {
     } else {
         alert("Please enter a valid amount.");
     }
+    scroll(
+        {
+            top:0,
+            behavior:"smooth"
+        }
+    )
 }
 
 // Function to update 
